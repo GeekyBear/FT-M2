@@ -1,0 +1,15 @@
+.div{
+    background-color: #343a40;
+}
+.input{
+    
+}
+
+.button{
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid #27ad44;
+    color: #27ad44;
+    background-color: #343a40;
+}
