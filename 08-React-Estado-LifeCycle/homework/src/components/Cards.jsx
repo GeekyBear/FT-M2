@@ -8,11 +8,13 @@ export default function Cards({cities, onClose}) {
     return (
       <div className='cards'>
         {cities.map(c => <Card
+            key={c.id}
             max={c.max}
             min={c.min}
             name={c.name}
             img={c.img}
-            onClose={() => onClose(c.id)}
+            onClose={() => onClose(c.id)} // Lo dejo asi, que ya bindea la funcion o...
+            //dentro del CARD button onClick={()=>onClose(id)}
             id={c.id}
           /> )}
       </div>
