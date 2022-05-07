@@ -7,9 +7,9 @@ import counter from './reducers';
 
 // Esta línea instancia nuestro store central de Redux.
 // La función `createStore` recibe el reducer
-// que es responsable de la actualización del store , junto
-//con cualquier estado inicial con el que queramos que
-//empiece el store (que en este caso es ninguno).
+// que es responsable de la actualización del store, junto
+// con cualquier estado inicial con el que queramos que
+// empiece el store (que en este caso es ninguno).
 const store = createStore(counter);
 
 // Aquí, envolvemos nuestro componente principal React dentro de las etiquetas del Provider,
